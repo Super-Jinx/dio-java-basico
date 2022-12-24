@@ -23,4 +23,18 @@ public class Desafio1 {
                 System.out.println("A turma é :Idosa");
              }
     }
+
+    public static void Desafio2 (String[] args) {
+        Scanner leitor = new Scanner(System.in);
+    
+        System.out.println("Em que turno você estuda?"+ "Digite: M-matutino ou V-Vespertino ou N- Noturno");
+    
+        char turno = leitor.next().toUpperCase().charAt(0);
+    
+        if (turno = M){
+            System.out.println("Bom Dia!");
+    
+        }
+    
+    }
 }
